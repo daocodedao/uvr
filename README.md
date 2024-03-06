@@ -1,3 +1,16 @@
+
+# 环境
+```
+# 安装虚拟环境
+python3.10 -m venv venv
+source venv/bin/activate
+
+# 安装包
+pip install -r requirements.txt
+# 豆瓣比较快
+pip install -r requirements.txt -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+```
+
 # Ultimate Vocal Remover CLI
 
 [[Colab]](https://colab.research.google.com/drive/1VDncdndceKanFrs2LU-LM4Odv8tnPkzD?usp=sharing)
